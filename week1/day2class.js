@@ -22,15 +22,15 @@ function foo(){
 console.log(foo(1));
 console.log(foo);
 
-function foo(p1,p2){
+function foo2(p1,p2){
     return p1 + " " + p2; 
 }
-console.log(foo('Jon', 'Diaz'));
+console.log(foo2('Jon', 'Diaz'));
 
-let foo = function{
+let foo3 = function() {
     return 'bar';
 }
 
-let foo2 = ( ) => {
+let foo4 = ( ) => {
     return 'bar';
 }
