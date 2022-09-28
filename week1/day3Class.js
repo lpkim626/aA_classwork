@@ -20,4 +20,43 @@ function printRange(start, end) {
         console.log(i)
     }
 }
-printRange(3,10);
+// printRange(3,10);
+// printRange(3,12);
+// printRange(1,33);
+
+//while loop
+
+function printRange1 (start, end) {
+    let i = start;
+    while (i <= end) {
+        console.log(i);
+        i++;
+    }
+}
+printRange1(7,21)
+
+
+    let i = 20;
+    while(false) {
+        console.log(i);
+    }
+
+function skipFive(num) {
+    for(let i = 1; i <=num; i++) {
+        if(i===5) {
+            continue  // goes back to let 
+        }
+        console.log(i);
+    }
+}
+skipFive(20); 
+
+function breakAtFive(num) {
+    for(let i = 1; i <= num; i++) {
+        if (i === 5) {
+            break;
+        }
+        console.log(i);
+    }
+}
+breakAtFive(20);
