@@ -107,3 +107,30 @@ if (0) {
 } else {
     console.log(true)
 }
+
+// === is "strict" per to use this 
+// == "loose" potential bugs
+
+//String data type
+
+//text wrapped in quotes (''or "")
+
+//characters are indexed starting at 0
+// string.length
+// string.toUpperCase
+// string.toLowerCase
+// sting.indexOf
+
+//Boolean data type
+// '!' NOT
+// '&&' AND
+//"||" OR     only get false if the all OR are false
+
+//Falsey values
+// 0, "", (empty string), undefined, NaN
+
+//Truthy Values
+// - Everything else 
+
+//Conditional
+// if....else if....else 
