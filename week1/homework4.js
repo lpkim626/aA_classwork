@@ -8,9 +8,32 @@
 // 1: John
 // 2: Carson
 
-let array ['Anthony', 'John', 'Carson'];
+let array = ['Anthony', 'John', 'Carson']
 
-function logEach(array)
+function logEach(array) {
     for (let i = 0; i < array.length; i += 1) {
+        // i =  3
+        // length = 3
+        console.log( i  + ":" + array[i]) ;
     }
-    console.log(  +":" +array);
+}
+
+logEach(array)
+
+
+
+// Write a function range(start, end) that returns an array that contains all
+// numbers between 'start' and 'end' in sequential order.
+//
+// Examples:
+//
+// range(1,4) => [1,2,3,4]
+// range(4,2) => []
+
+let number = [ 1, 2, 3, 4, 5]
+
+function range(number){
+    for (let i = 0; i  ; i += 1);
+}
+range(1,4)
+range(4,2)
