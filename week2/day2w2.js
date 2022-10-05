@@ -79,3 +79,19 @@ console.log(cat.test)
 let test = "name";
 console.log(cat[test]);
 console.log(cat.test);
+
+//loop though object
+
+
+function printObject(obj) {
+    for (let key in obj) {
+        console.log(key)
+        console.log(obj[key])
+    }
+}
+
+printObject(cat)
+
+
+//let myObj = {name: "Kevin"}
+//

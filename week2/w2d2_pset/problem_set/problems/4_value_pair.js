@@ -13,7 +13,7 @@ valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
 ***********************************************************************/
 
 function valuePair(obj1, obj2, key) {
-
+    for 
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

@@ -12,8 +12,16 @@ cat2; // => { name: 'Nyan', color: 'rainbow', toys: [ 'poptarts' ] }
 ***********************************************************************/
 
 function catBuilder(name, color, toys) {
+    let cat = {
+        name: name,
+        color: color,
+        toys: toys,
 
+    
+    }
+    return cat
 }
+console.log(catBuilder("Whiskers", "rainbow", [ "poptarts" ]))
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = catBuilder;

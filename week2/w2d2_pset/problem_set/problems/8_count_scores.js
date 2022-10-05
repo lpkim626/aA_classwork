@@ -31,7 +31,7 @@ countScores(peeps); //=> { Anthony: 4, Fred: 4, Winnie: 6 }
 
 
 function countScores(people) {
-
+  for (let key)
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
